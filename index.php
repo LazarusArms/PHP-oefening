@@ -1,11 +1,10 @@
 <?php
 
-
 // hierin staat the login code waar de form van hieronder naartoe word gestuurd.
 include('login.php');
 
 if(isset($_SESSION['login_user'])){
-    header("location: profile.php");
+    header("location: home.php");
 }
 ?>
 
