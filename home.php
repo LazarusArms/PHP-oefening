@@ -1,3 +1,5 @@
+
+<!--PHP code die een verbinding legt met de DB, met een query om de duiven tabel om te vragen. Ook hier aan toegevoegd is het opvangen van eventuele errors.-->
 <?php
 
 $db_host = 'localhost'; // Server Name
@@ -27,7 +29,7 @@ if (!$query) {
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
-<h1>Table 1</h1>
+<h1>De PITLOZE DUIVEN</h1>
 <table class="data-table">
     <caption class="title">Duiven</caption>
     <thead>
